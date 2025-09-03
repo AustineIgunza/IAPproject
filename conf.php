@@ -3,9 +3,9 @@
 $conf['site_timezone'] = 'Africa/Nairobi';
 
 // Site information
-$conf['site_name'] = 'ICS B Academy';
+$conf['site_name'] = 'Austine';
 $conf['site_url'] = 'http://localhost/tol';
-$conf['admin_email'] = 'admin@icsbacademy.com';
+$conf['admin_email'] = 'admin@austine.com';
 
 // Site language
 $conf['site_lang'] = 'en';
