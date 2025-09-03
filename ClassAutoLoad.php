@@ -11,7 +11,7 @@ spl_autoload_register(function ($class_name) use ($directories) {
         }
     }
 });
-// Create an instance of the class
+// Create an instance of the classs
 $hello = new classes();
 $layout = new layouts();
 $form = new forms();
