@@ -3,24 +3,23 @@
 $conf['site_timezone'] = 'Africa/Nairobi';
 
 // Site information
-$conf['site_name'] = 'ICS B Academy';
-$conf['site_url'] = 'http://localhost/tol';
-$conf['admin_email'] = 'admin@icsbacademy.com';
+$conf['site_name'] = 'Austine';
+$conf['site_url'] = 'http://localhost/IAPproject';
+$conf['admin_email'] = 'mmattaigunza@gmail.com';
 
 // Site language
 $conf['site_lang'] = 'en';
 
-// Database configuration
-$conf['db_type'] = 'pdo';
+// Database configuration (mysqli)
 $conf['db_host'] = 'localhost';
-$conf['db_user'] = 'root';
-$conf['db_pass'] = '';
-$conf['db_name'] = 'tol';
+$conf['db_user'] = 'root';         // your phpMyAdmin username
+$conf['db_pass'] = '';             // your phpMyAdmin password (empty by default on XAMPP/WAMP)
+$conf['db_name'] = 'IAPproject';   //  
 
-// Email configuration
-$conf['mail_type'] = 'smtp'; // Options: 'smtp' or 'mail'
+// Email configuration (PHPMailer + Gmail)
+$conf['mail_type'] = 'smtp'; 
 $conf['smtp_host'] = 'smtp.gmail.com';
-$conf['smtp_user'] = 'bbitalex@gmail.com';
-$conf['smtp_pass'] = '';
-$conf['smtp_port'] = 465;
-$conf['smtp_secure'] = 'ssl';
+$conf['smtp_user'] = 'yourgmail@gmail.com';      // your Gmail address
+$conf['smtp_pass'] = 'xxxx xxxx xxxx xxxx';      // Gmail App Password (16 characters)
+$conf['smtp_port'] = 587;                        // TLS port
+$conf['smtp_secure'] = 'tls';                    // encryption
