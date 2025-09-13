@@ -1,32 +1,24 @@
 # Git Workflow for Task App Project
 
-1. Initialize the local repository (only once at the start):
+1. Initialize Git repository
    git init
 
-2. Add all files to staging:
+2. Check repository status
+   git status
+
+3. Add all project files to staging
    git add .
 
-3. Commit the files with a message:
-   git commit -m "Initial commit - setup Task App project"
+4. Commit changes with a message
+   git commit -m "Initial commit with Task App project files"
 
-4. Connect local repo to GitHub:
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
+5. Connect to remote GitHub repository
+   git remote add origin https://github.com/your-username/TaskApp.git
 
-5. Rename default branch to main (if needed):
-   git branch -M main
-
-6. Push project to GitHub (first time):
+6. Push changes to remote repository (main branch)
    git push -u origin main
 
-7. For future changes:
-   - Stage changes:
-     git add .
-   - Commit with message:
-     git commit -m "Updated mail.php with email validation and DB insert"
-   - Push changes:
-     git push origin main
-
-8. To pull latest changes (if working on another machine):
-   git pull origin main
-
-# End of workflow
+7. For future updates:
+   git add .
+   git commit -m "Updated project files"
+   git push
