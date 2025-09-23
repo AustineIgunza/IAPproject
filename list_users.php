@@ -1,5 +1,5 @@
 <?php
-require 'ClassAutoLoad.php';
+require 'LoadingClass.php';
 
 // Create instances
 $layout = new Layouts();

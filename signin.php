@@ -1,9 +1,9 @@
 <?php
-require 'ClassAutoLoad.php';
+require 'LoadingClass.php';
 
 // Create instances
 $layout = new Layouts();
-$form   = new Forms();
+$form   = new FormsLayout();
 
 // Output the page
 print $layout->header($conf);

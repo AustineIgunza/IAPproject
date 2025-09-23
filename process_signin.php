@@ -1,5 +1,5 @@
 <?php
-require 'ClassAutoLoad.php';
+require 'LoadingClass.php';
 
 try {
     $dsn = "mysql:host={$conf['db_host']};dbname={$conf['db_name']};charset=utf8";

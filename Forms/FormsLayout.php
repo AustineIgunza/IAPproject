@@ -1,5 +1,5 @@
 <?php
-class Forms {
+class FormsLayout {
     public function signup() {
 ?>
 <form method="post" action="process_signup.php">
